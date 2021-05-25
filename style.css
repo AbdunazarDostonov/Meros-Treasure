@@ -1,0 +1,139 @@
+/* body{
+    text-align: center;
+    color: aqua;
+    font-size: 8rem;
+} */
+
+body {
+  background-color: rgb(227, 247, 248);
+  height: 100vh;
+  display: flex;
+  font-family: "Newsreader", serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: -5px;
+}
+
+i {
+  color: black;
+}
+
+.hidden2 {
+  display: none;
+  cursor: pointer;
+}
+
+.box {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  width: 30%;
+  margin: auto;
+  flex-direction: column;
+  text-align: center;
+  padding: 5rem;
+}
+
+.input1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: start;
+  padding: 0 1rem;
+  background-color: rgb(227, 247, 248);
+  margin-bottom: 1rem;
+}
+
+.input2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: start;
+  padding: 0 1rem;
+  background-color: rgb(227, 247, 248);
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+input {
+  text-align: start !important;
+  width: 90%;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  background-color: rgb(227, 247, 248);
+}
+
+.inputfirst {
+  text-align: start !important;
+  width: 90%;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  background-color: rgb(227, 247, 248);
+}
+
+button {
+  width: 10rem;
+  margin: auto;
+  padding: 1rem 0;
+  border: none;
+  color: rgb(20, 15, 15);
+}
+
+.fa-eye-slash {
+  cursor: pointer;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 224, 179) 0%,
+    #b9eceb 50%,
+    rgb(255, 227, 185) 100%
+  );
+}
+
+.btn-grad {
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: rgb(155, 152, 152);
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .box {
+    width: 50%;
+    padding: 4rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .box {
+    height: 20%;
+    width: 50%;
+    padding: 5rem 4rem;
+  }
+
+  button {
+    width: 10rem;
+    margin: auto;
+    padding: 0.6rem 0;
+    border: none;
+    color: rgb(20, 15, 15);
+  }
+}
